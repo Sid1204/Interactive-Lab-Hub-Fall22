@@ -118,6 +118,7 @@ The prominence and brightness of the light, and the absence of a screen have bee
 ## Part F. Record
 
 \*\***Take a video of your prototyped interaction.**\*\*
+
 Link: https://youtu.be/PCaa2Ve6I5E
 
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
