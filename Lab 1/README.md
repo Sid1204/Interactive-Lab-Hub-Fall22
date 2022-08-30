@@ -90,6 +90,7 @@ The light would need to be bright so as to not require the Actor to look directl
 ## Part C. Prototype the device
 
 \*\***Give us feedback on Tinkerbelle.**\*\*
+
 The ability to play specific audio cues directly without the need to randomly query the sound library to try and get a hit would be good. Besides that, it seems to work well! The setup and controls are pretty straightforward.
 
 ## Part D. Wizard the device
@@ -120,6 +121,7 @@ The prominence and brightness of the light, and the absence of a screen have bee
 Link: https://youtu.be/PCaa2Ve6I5E
 
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
+
 I was inspired by the motion picture "Drive My Car", and a character from the same also serves as the namesake for my device. Special shoutout to my partner for helping me sanity check certain features of iOto!
 
 
