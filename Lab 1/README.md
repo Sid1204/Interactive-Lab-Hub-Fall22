@@ -57,60 +57,48 @@ Labs are due on Mondays. Make sure this page is linked to on your main class hub
 
 ## Part A. Plan 
 
-To stage an interaction with your interactive device, think about:
-
-_Setting:_ Where is this interaction happening? (e.g., a jungle, the kitchen) When is it happening?
-
-_Players:_ Who is involved in the interaction? Who else is there? If you reflect on the design of current day interactive devices like the Amazon Alexa, it’s clear they didn’t take into account people who had roommates, or the presence of children. Think through all the people who are in the setting.
-
-_Activity:_ What is happening between the actors?
-
-_Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening the fridge). 
-
-The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
-
 \*\***Describe your setting, players, activity and goals here.**\*\*
 
-Storyboards are a tool for visually exploring a users interaction with a device. They are a fast and cheap method to understand user flow, and iterate on a design before attempting to build on it. Take some time to read through this explanation of [storyboarding in UX design](https://www.smashingmagazine.com/2017/10/storyboarding-ux-design/). Sketch seven storyboards of the interactions you are planning. **It does not need to be perfect**, but must get across the behavior of the interactive device and the other characters in the scene. 
+Setting: This interaction can be happening in a quiet room (for instance, an apartment). The room has a stage Actor in it. The Actor is preparing for a play, and is trying to practice their lines for the same. A small audience of one or a few could also be present in the room to help the Actor prepare.
+
+Players: The Actor, and any practice audience members.
+
+Activity: The actor is trying to practice their lines and is using iOto (the device) to help with the same. iOto speaks the lines of the other characters in the play, waits for the Actor to speak theirs when their part arrives, and so on. iOto uses a colored light to help the Actor pace themselves. When the Actor's part is coming up, the light changes to a shade of yellow (in place of the usual off-white), and finally to a deep green when it is the Actor's turn to deliver their lines.
+
+Goals: To help the Actor rehearse their play and learn their lines in a more intuitive fashion.
 
 \*\***Include pictures of your storyboards here**\*\*
 
-Present your ideas to the other people in your breakout room (or in small groups). You can just get feedback from one another or you can work together on the other parts of the lab.
+![IMG-7002](https://user-images.githubusercontent.com/39087742/187324981-d681c0ba-891e-40d0-ba25-49dac4340451.jpg)
+![IMG-7001](https://user-images.githubusercontent.com/39087742/187325048-3a9b0ac5-92fe-4733-8888-29e521aab939.jpg)
+![IMG-6999](https://user-images.githubusercontent.com/39087742/187325065-6e0a385e-607e-4c55-a5f2-9592abf94acb.jpg)
 
 \*\***Summarize feedback you got here.**\*\*
 
+Initial mockups of iOto had a screen to show expressions, but after some feedback, I chose to switch it out with a speaker grille that lights up. This was done to address two concerns: no one needs another screen, facial expressions wouldn't be the most helpful (body language would be, but that would be out of the scope for a small device).
 
 ## Part B. Act out the Interaction
 
-Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
-
 \*\***Are there things that seemed better on paper than acted out?**\*\*
+
+Talking to a speaker might seem odd to some initially, but I would imagine that Actors who are used to rehearsals would not face that issue.
 
 \*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
 
+The light would need to be bright so as to not require the Actor to look directly at iOto to be able to get the cues it is trying to provide. Reflections of a bright light bouncing off of the room's walls should help.
 
 ## Part C. Prototype the device
 
-You will be using your smartphone as a stand-in for the device you are prototyping. You will use the browser of your smart phone to act as a “light” and use a remote control interface to remotely change the light on that device. 
-
-Code for the "Tinkerbelle" tool, and instructions for setting up the server and your phone are [here](https://github.com/FAR-Lab/tinkerbelle).
-
-We invented this tool for this lab! 
-
-If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
-
 \*\***Give us feedback on Tinkerbelle.**\*\*
-
+The ability to play specific audio cues directly without the need to randomly query the sound library to try and get a hit would be good. Besides that, it seems to work well! The setup and controls are pretty straightforward.
 
 ## Part D. Wizard the device
-Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
-\*\***Include your first attempts at recording the set-up video here.**\*\*
-
-Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
+\*\***Include your first attempts at recording the set-up video here.**\*\* 
 
 \*\***Show the follow-up work here.**\*\*
 
+Setup video link: https://youtu.be/RRFqogNwfP0
 
 ## Part E. Costume the device
 
@@ -120,16 +108,19 @@ Think about the setting of the device: is the environment a place where the devi
 
 \*\***Include sketches of what your devices might look like here.**\*\*
 
+![IMG-6998](https://user-images.githubusercontent.com/39087742/187325841-31387f8b-1a24-4a4d-b6c8-ab6c4e8ffbbc.jpg)
+
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
 
+The prominence and brightness of the light, and the absence of a screen have been discussed above. Additionally, the device should also be water resistant so as to allow for shower rehearsals and promote usage in without the need to account for environment conditions. Having a singular light source instead of a screen also promotes simplicity and focus in design, which is something that I personally would appreciate in modern devices.
 
 ## Part F. Record
 
 \*\***Take a video of your prototyped interaction.**\*\*
+Link: https://youtu.be/PCaa2Ve6I5E
 
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
-Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
-
+I was inspired by the motion picture "Drive My Car", and a character from the same also serves as the namesake for my device. Special shoutout to my partner for helping me sanity check certain features of iOto!
 
 
 # Staging Interaction, Part 2 
