@@ -137,6 +137,9 @@ You will be assigned three partners from another group. Go to their github pages
 
 \*\***Summarize feedback from your partners here.**\*\*
 
+1. They liked my use of light and audio!
+2. It was suggested that I add the capability to include multiple people in a scene, as well as the ability for the device to check if the actor emphasised the right lines.
+
 ## Make it your own
 
 Do last week’s assignment again, but this time: 
@@ -145,3 +148,10 @@ Do last week’s assignment again, but this time:
 3) We will be grading with an emphasis on creativity. 
 
 \*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
+
+For this iteration, I decided to make a few updates to iOto, the device I created in part one of this Lab.
+Namely, I decided to include the ability for multiple people to practice together. I also accommodated the ability for iOto to listen in on and evaluate the practice session. But perhaps most importantly, I tried to improve the accessibility of iOto. Namely, I added big tactile buttons to the facade of the device to make it easier to interact with. I also made it so that iOto has a camera that can read sign language so that it can accommodate people who use the same.
+The storyboards are below, and the prototyping video link is: https://youtu.be/FFge-Sn71Uo
+
+![image_123923953](https://user-images.githubusercontent.com/39087742/188532792-2e67b22c-2e31-4b57-acd2-553afca9aa43.JPG)
+![image_123923953(1)](https://user-images.githubusercontent.com/39087742/188532806-134e76f9-76b1-41ae-ba69-b382962b4785.JPG)
