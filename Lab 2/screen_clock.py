@@ -54,17 +54,45 @@ x = 0
 # same directory as the python script!
 # Some other nice fonts to try: http://www.dafont.com/bitmap.php
 font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 18)
+font2 = ImageFont.truetype("/usr/share/fonts/truetype/piboto/Piboto-Bold.ttf", 24)
+font3 = ImageFont.truetype("/usr/share/fonts/truetype/piboto/Piboto-Bold.ttf", 18)
 
 # Turn on the backlight
 backlight = digitalio.DigitalInOut(board.D22)
 backlight.switch_to_output()
 backlight.value = True
+buttonA = digitalio.DigitalInOut(board.D23)
+buttonB = digitalio.DigitalInOut(board.D24)
+buttonA.switch_to_input()
+buttonB.switch_to_input()
+val = 0
 
 while True:
     # Draw a black filled box to clear the image.
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
 
     #TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py 
+    
+    if buttonA.value and buttonB.value:
+        y = top
+        draw.text((x, y), "Press a button to \n", font=font, fill="#FFFFFF")
+        y -= 8 * padding
+        draw.text((x, y), "+1 Stress", font=font2, fill="#FF0000")
+        y -= 16 * padding
+        draw.text((x, y), "Current stress: " + str(val), font=font, fill="#FFFFFF")
+        
+        #draw.text((x, y), time.strftime("%m/%d/%Y %H:%M:%S"), font=font, fill="#FFFFFF")
+        
+    if val > 11:
+        draw.rectangle((0, 0, width, height), outline=0, fill=0)
+        y = top
+        draw.text((x, y), "Enough! Your day has \nended.", font=font3, fill="#0000FF")
+        y -= 24 * padding
+        draw.text((x, y), "Go to bed!", font=font3, fill="#00FF00")
+        
+    elif not buttonA.value or not buttonB.value:
+        val += 1
+        draw.text((x, y), "Adding Stress", font=font2, fill="#FF0000")
 
     # Display image.
     disp.image(image, rotation)
