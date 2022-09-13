@@ -40,6 +40,8 @@ Prior to the lab session on Thursday, taken inventory of the kit parts that you 
 
 ***Update your [parts list inventory](partslist.md)***
 
+All parts are present!
+
 3. ### Prepare your Pi for lab this week
 [Follow these instructions](prep.md) to download and burn the image for your Raspberry Pi before lab Thursday.
 
@@ -188,6 +190,12 @@ Please sketch/diagram your clock idea. (Try using a [Verplank digram](http://www
 
 **We strongly discourage and will reject the results of literal digital or analog clock display.**
 
+Does time need to be measured in seconds? Can there exist a version of time that is all your own, and advances when you need it to? Maybe not in the real world, but that can't stop me from wizarding that up for this assignment!
+My device is a 'Stress Clock', named Susan, that gives you control over time! It is designed such that there is a threshold of 'stress' (currently hardcoded to 12 for simplicity sake) that, when reached by the user, asks the user to go to bed and/or wind down. In its current state, the user can use the buttons on the MiniPiTFT to add one unit to their stress level. Perhaps this could be substituted for a stress monitoring wearable in future renditions.
+
+Verplank Diagram for Susan:
+
+![IMG-7456](https://user-images.githubusercontent.com/39087742/189790767-b74298fa-b50a-4999-9bee-754d134eba8c.jpg)
 
 \*\*\***A copy of your code should be in your Lab 2 Github repo.**\*\*\*
 
@@ -207,8 +215,14 @@ After that, Git will ask you to login to your GitHub account to push the updates
 
 \*\*\***Take a video of your PiClock.**\*\*\*
 
+Video Link: https://youtube.com/shorts/KrPn6nAbSls?feature=share 
+
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
+
+Proposed further interactions:
+
+![IMG-7457](https://user-images.githubusercontent.com/39087742/189791110-dff95a45-52f9-40b7-93e4-03636ced601b.jpg)
 
 
 # Prep for Part 2
