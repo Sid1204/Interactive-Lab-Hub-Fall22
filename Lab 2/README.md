@@ -233,6 +233,13 @@ Proposed further interactions:
 
 2. Look at and give feedback on the Part G. for at least 2 other people in the class (and get 2 people to comment on your Part G!)
 
+The feedback I received was:
+1. Maybe the clock could suggest de-stressing activities (such as taking a walk or meditating) to help people relax. When they do, the stress counter could go down a small amount. This would need to be an activity that can be conducted safely by the individual in question. Overall, a much better way to address stress than asking the person to go to sleep.
+2. Maybe the stress could automatically decay at a slow rate over time. 
+3. A quiz that measures one's freshness using the two buttons as A and B options. This quiz can then be used to do various things, such as calibrating your stress ceiling for the day.
+4. Possibly use the other button to take away stress from the accumulation, so that when someone has come back from a relaxing activity, they can wind the clock down and then get some work done before they are asked to relax.
+
+
 # Lab 2 Part 2
 
 Pull Interactive Lab Hub updates to your repo.
