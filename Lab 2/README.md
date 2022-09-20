@@ -242,12 +242,9 @@ The feedback I received was:
 
 # Lab 2 Part 2
 
-Pull Interactive Lab Hub updates to your repo.
+For this week's class, I've added some dunctionality to the Stress Clock I'd created in the last class. This time, the clock detects how quickly you add stress. If the user adds stress twice over the course of 5 seconds (set to a short time purely for demonstration purposes), the clock takes notice and aims to help them relax. In this rendition, it does that by making the user practice box breathing, a technique to help you slow down and de-stress. 
+I have also changed the colors for the UI to make it more soothing yet noticeable, so that it does not blend into the background too much when it should be paid attention to.
 
-Modify the code from last week's lab to make a new visual interface for your new clock. You may [extend the Pi](Extending%20the%20Pi.md) by adding sensors or buttons, but this is not required.
-
-As always, make sure you document contributions and ideas from others explicitly in your writeup.
-
-You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page. 
+Link to demo: https://youtube.com/shorts/Mjvb3jRk2Jc?feature=share
 
 
