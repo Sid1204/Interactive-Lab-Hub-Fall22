@@ -1,4 +1,5 @@
 # Interactive Prototyping: The Clock of Pi
+**NAMES OF COLLABORATORS HERE**
 
 Does it feel like time is moving strangely during this semester?
 
@@ -39,6 +40,8 @@ Before the start of lab Thursday, [pull changes from the Interactive Lab Hub](ht
 Prior to the lab session on Thursday, taken inventory of the kit parts that you have, and note anything that is missing:
 
 ***Update your [parts list inventory](partslist.md)***
+
+All parts are present!
 
 3. ### Prepare your Pi for lab this week
 [Follow these instructions](prep.md) to download and burn the image for your Raspberry Pi before lab Thursday.
@@ -188,6 +191,12 @@ Please sketch/diagram your clock idea. (Try using a [Verplank digram](http://www
 
 **We strongly discourage and will reject the results of literal digital or analog clock display.**
 
+Does time need to be measured in seconds? Can there exist a version of time that is all your own, and advances when you need it to? Maybe not in the real world, but that can't stop me from wizarding that up for this assignment!
+My device is a 'Stress Clock', named Susan, that gives you control over time! It is designed such that there is a threshold of 'stress' (currently hardcoded to 12 for simplicity sake) that, when reached by the user, asks the user to go to bed and/or wind down. In its current state, the user can use the buttons on the MiniPiTFT to add one unit to their stress level. Perhaps this could be substituted for a stress monitoring wearable in future renditions.
+
+Verplank Diagram for Susan:
+
+![IMG-7456](https://user-images.githubusercontent.com/39087742/189790767-b74298fa-b50a-4999-9bee-754d134eba8c.jpg)
 
 \*\*\***A copy of your code should be in your Lab 2 Github repo.**\*\*\*
 
@@ -207,8 +216,14 @@ After that, Git will ask you to login to your GitHub account to push the updates
 
 \*\*\***Take a video of your PiClock.**\*\*\*
 
+Video Link: https://youtube.com/shorts/KrPn6nAbSls?feature=share 
+
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
+
+Proposed further interactions:
+
+![IMG-7457](https://user-images.githubusercontent.com/39087742/189791110-dff95a45-52f9-40b7-93e4-03636ced601b.jpg)
 
 
 # Prep for Part 2
@@ -218,14 +233,18 @@ After that, Git will ask you to login to your GitHub account to push the updates
 
 2. Look at and give feedback on the Part G. for at least 2 other people in the class (and get 2 people to comment on your Part G!)
 
+The feedback I received was:
+1. Maybe the clock could suggest de-stressing activities (such as taking a walk or meditating) to help people relax. When they do, the stress counter could go down a small amount. This would need to be an activity that can be conducted safely by the individual in question. Overall, a much better way to address stress than asking the person to go to sleep.
+2. Maybe the stress could automatically decay at a slow rate over time. 
+3. A quiz that measures one's freshness using the two buttons as A and B options. This quiz can then be used to do various things, such as calibrating your stress ceiling for the day.
+4. Possibly use the other button to take away stress from the accumulation, so that when someone has come back from a relaxing activity, they can wind the clock down and then get some work done before they are asked to relax.
+
+
 # Lab 2 Part 2
 
-Pull Interactive Lab Hub updates to your repo.
+For this week's class, I've added some dunctionality to the Stress Clock I'd created in the last class. This time, the clock detects how quickly you add stress. If the user adds stress twice over the course of 5 seconds (set to a short time purely for demonstration purposes), the clock takes notice and aims to help them relax. In this rendition, it does that by making the user practice box breathing, a technique to help you slow down and de-stress. 
+I have also changed the colors for the UI to make it more soothing yet noticeable, so that it does not blend into the background too much when it should be paid attention to.
 
-Modify the code from last week's lab to make a new visual interface for your new clock. You may [extend the Pi](Extending%20the%20Pi.md) by adding sensors or buttons, but this is not required.
-
-As always, make sure you document contributions and ideas from others explicitly in your writeup.
-
-You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page. 
+Link to demo: https://youtube.com/shorts/Mjvb3jRk2Jc?feature=share
 
 
