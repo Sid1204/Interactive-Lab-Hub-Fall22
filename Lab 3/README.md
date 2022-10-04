@@ -156,7 +156,9 @@ The system should:
 The system first asks the user what they're looking for. The Raspberry Pi runs object detection on the frames captured by the webcam in order to recongize the objects in its environment. The labels identified are then cross-referenced with the user's ask and, if the user is pointing to (i.e. the Webcam is looking at) the thing they asked for, the system responds with a positive message that alerts the user that they're pointing to the right thing.
 
 Command used for object detection: _python real_time_object_detection.py -p MobileNetSSD_deploy.prototxt.txt -m MobileNetSSD_deploy.caffemodel_
+
 Object Detection: https://youtu.be/qZgjm6uGjtg
+
 Speech Recognition: https://youtu.be/vlzziCHN0hE
 
 *Include videos or screencaptures of both the system and the controller.*
@@ -168,18 +170,22 @@ Answer the following:
 
 ### What worked well about the system and what didn't?
 \*\**your answer here*\*\*
+
 The idea seemed to land well, and seemed useful for people with cognitive defiicits. However, due to time constraints, I was unable to test it out with older people who would be in the target audience.
 
 ### What worked well about the controller and what didn't?
 \*\**your answer here*\*\*
+
 Setting up object detection took a long, long time and presented a lot of hurdles. However, once I had it set up, it did work well even on the constrained system. I would use something like the Intel NCS 2 to run it better in the future though.
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 \*\**your answer here*\*\*
+
 Integrating the speech recognition and the object detection proved hard, and was thus wizarded instead of being coded in. On the user side, the system would need to clarify its abilities so that users know how to use it. The physical design should also intuitively reflect its core functionality in order to communicate its abilities better.
 
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 \*\**your answer here*\*\*
+
 One could record the things people seem to be looking for commonly to understand the needs and wants of users in order to serve them better. Such a system would also benefit greatly from continuous improvement in its sensing capabilities, which could be improved by gathering user feedback.
 
