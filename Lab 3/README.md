@@ -157,8 +157,7 @@ The system first asks the user what they're looking for. The Raspberry Pi runs o
 
 Command used for object detection: _python real_time_object_detection.py -p MobileNetSSD_deploy.prototxt.txt -m MobileNetSSD_deploy.caffemodel_
 Object Detection: https://youtu.be/qZgjm6uGjtg
-
-
+Speech Recognition: https://youtu.be/vlzziCHN0hE
 
 *Include videos or screencaptures of both the system and the controller.*
 
