@@ -190,6 +190,7 @@ The questions this raises are: whether this needs bespoke fabrication or can be 
 
 **\*\*\*Pick one of these designs to prototype.\*\*\***
 
+The pumpkin design seems to be the most viable, as it can easily be adjusted to provide line-of-sight while also adding to the decor instead of being there just to serve a singular purpose. 
 
 ### Part D
 ### Physical considerations for displaying information and housing parts
@@ -240,6 +241,8 @@ The designs would need to be prototyped to understand whether they fulfil their 
 
 **\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
 
+I aim to prototype the integration into the bowl stand. It seems to offer the most protection to the screen while being in a place that is naturally going to draw eyes by virtue of it being right under the bowl that holds all the candy.
+
 **\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
 
 *Discussed above*
@@ -248,6 +251,9 @@ Build a cardbord prototype of your design.
 
 **\*\*\*Document your rough prototype.\*\*\***
 
+![IMG-8829](https://user-images.githubusercontent.com/39087742/195485172-57511142-f92f-4007-9d62-933a3b999e89.jpg)
+
+Creating this prototype made me realize that this design would only work if the display is, higher up, close to the bowl. This is because the bowl would already be within the reach of kids, and with the display placed halfway down that platform, it would be entirely too low to be easily legible. That is, unless it were to be angled up and/or magnified.
 
 LAB PART 2
 
