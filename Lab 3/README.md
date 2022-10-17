@@ -58,6 +58,8 @@ You can also play audio files directly with `aplay filename`. Try typing `aplay 
 \*\***Write your own shell file to use your favorite of these TTS engines to have your Pi greet you by name.**\*\*
 (This shell file should be saved to your own repo for this lab.)
 
+Uploaded as _name_test.sh_.
+
 Bonus: If this topic is very exciting to you, you can try out this new TTS system we recently learned about: https://github.com/rhasspy/larynx
 
 ### Speech to Text
@@ -80,6 +82,8 @@ Now, look at which camera you have. Do you have the cylinder camera (likely the 
 Then try `./vosk_demo_mic.sh`
 
 \*\***Write your own shell file that verbally asks for a numerical based input (such as a phone number, zipcode, number of pets, etc) and records the answer the respondent provides.**\*\*
+
+Uploaded as _question.sh_.
 
 ### Serving Pages
 
@@ -105,15 +109,26 @@ Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stu
 
 \*\***Post your storyboard and diagram here.**\*\*
 
+![IMG-7976](https://user-images.githubusercontent.com/39087742/192418990-08b09cba-8273-4430-a7f2-da85801d9768.jpg)
+
+
 Write out what you imagine the dialogue to be. Use cards, post-its, or whatever method helps you develop alternatives or group responses. 
 
+![IMG-7977](https://user-images.githubusercontent.com/39087742/192419071-4abb074a-caaf-4fc1-a134-ca69838fc0fa.jpg)
+
 \*\***Please describe and document your process.**\*\*
+
+For this assignment, I decided to create _Pointu_, an interaactive pointing device. This device is intended for people who are advanced in age and have reduced cognition/sight. The device works by calling out the objects that it is pointed at, and by interacting with the user to understand what they are looking for so that it can help the user navigate to the same.
 
 ### Acting out the dialogue
 
 Find a partner, and *without sharing the script with your partner* try out the dialogue you've designed, where you (as the device designer) act as the device you are designing.  Please record this interaction (for example, using Zoom's record feature).
 
 \*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
+
+In the dialogue, I found that the device's introduction as a 'pointing device' did not convey the full extent of what all it could do. As a result, the user did not think to interact with it beyond its basic pointing functionality. In future iterations, this could be improved upon by better informing the user about the capabilities of the device.
+
+Link to video: https://youtu.be/trwDIeGY7X4
 
 ### Wizarding with the Pi (optional)
 In the [demo directory](./demo), you will find an example Wizard of Oz project. In that project, you can see how audio and sensor data is streamed from the Pi to a wizard controller that runs in the browser.  You may use this demo code as a template. By running the `app.py` script, you can see how audio and sensor data (Adafruit MPU-6050 6-DoF Accel and Gyro Sensor) is streamed from the Pi to a wizard controller that runs in the browser `http://<YouPiIPAddress>:5000`. You can control what the system says from the controller as well!
@@ -138,6 +153,13 @@ The system should:
 * require participants to speak to it. 
 
 *Document how the system works*
+The system first asks the user what they're looking for. The Raspberry Pi runs object detection on the frames captured by the webcam in order to recongize the objects in its environment. The labels identified are then cross-referenced with the user's ask and, if the user is pointing to (i.e. the Webcam is looking at) the thing they asked for, the system responds with a positive message that alerts the user that they're pointing to the right thing.
+
+Command used for object detection: _python real_time_object_detection.py -p MobileNetSSD_deploy.prototxt.txt -m MobileNetSSD_deploy.caffemodel_
+
+Object Detection: https://youtu.be/qZgjm6uGjtg
+
+Speech Recognition: https://youtu.be/vlzziCHN0hE
 
 *Include videos or screencaptures of both the system and the controller.*
 
@@ -149,16 +171,21 @@ Answer the following:
 ### What worked well about the system and what didn't?
 \*\**your answer here*\*\*
 
-### What worked well about the controller and what didn't?
+The idea seemed to land well, and seemed useful for people with cognitive defiicits. However, due to time constraints, I was unable to test it out with older people who would be in the target audience.
 
+### What worked well about the controller and what didn't?
 \*\**your answer here*\*\*
+
+Setting up object detection took a long, long time and presented a lot of hurdles. However, once I had it set up, it did work well even on the constrained system. I would use something like the Intel NCS 2 to run it better in the future though.
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
-
 \*\**your answer here*\*\*
+
+Integrating the speech recognition and the object detection proved hard, and was thus wizarded instead of being coded in. On the user side, the system would need to clarify its abilities so that users know how to use it. The physical design should also intuitively reflect its core functionality in order to communicate its abilities better.
 
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
-
 \*\**your answer here*\*\*
+
+One could record the things people seem to be looking for commonly to understand the needs and wants of users in order to serve them better. Such a system would also benefit greatly from continuous improvement in its sensing capabilities, which could be improved by gathering user feedback.
 

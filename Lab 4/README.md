@@ -176,10 +176,21 @@ Usually, sensors need to positioned in specific locations or orientations to mak
 
 **\*\*\*Draw 5 sketches of different ways you might use your sensor, and how the larger device needs to be shaped in order to make the sensor useful.\*\*\***
 
+For this lab, in keeping with the Halloween spirit, I've decided to build a system that senses when someone walks up to it and reacts by playing *scary* recorded messages, among other possibilities. The sensor senses the distance of the individual from the front door (or somewhere near it) and plays a sequence of recorded clips that get scarier the closer the person gets to it.
+
+*Note*: The following image contains numbered designs for both the sensors and the screen. The sensor designs are discussed here, while the screen designs are discussed later in the lines that follow.
+
+![IMG-8828](https://user-images.githubusercontent.com/39087742/195473556-f96b7d0c-1691-4e2d-bbdc-8466eaecbe56.jpg)
+
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
+
+In the sketch, design components numbered 1 through 5 represent the sensors and other actuators that form the systom at large. 3, 4 and 5 are different sensor setups to detect the presence of individuals on the front yard, while 1 is the speaker that plays the aforementioned sounds and 2 is a door hinge actuator that creepily swings the door open to reveal the costumed homeowner who can then deliver a fright.
+
+The questions this raises are: whether this needs bespoke fabrication or can be done at home to keep costs low, and whether the system can work together cohesively enough to be more than just a gimmick.
 
 **\*\*\*Pick one of these designs to prototype.\*\*\***
 
+The pumpkin design seems to be the most viable, as it can easily be adjusted to provide line-of-sight while also adding to the decor instead of being there just to serve a singular purpose. 
 
 ### Part D
 ### Physical considerations for displaying information and housing parts
@@ -221,16 +232,28 @@ Think about how you want to present the information about what your sensor is se
  
 **\*\*\*Sketch 5 designs for how you would physically position your display and any buttons or knobs needed to interact with it.\*\*\***
 
+In the figure above, components 6 through 10 represent the different possible setups for the display. 
+
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
+
+Design 6 and 9 are intended to pique people's curiosity and draw them into the yard and ultimately get them walking up to the door for a treat (and a trick). Design 7 offers an enhanced level of protection to the display (against the elements as well as against vandalism). Designs 8 and 10 are supposed to be the simplest, easiest to see designs.
+The designs would need to be prototyped to understand whether they fulfil their intended purposes. How much does visibility matter in a fast paced environment? Does the system efficiently pace the people entering its domain so as to deliver the scare with maximum impact?
 
 **\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
 
+I aim to prototype the integration into the bowl stand. It seems to offer the most protection to the screen while being in a place that is naturally going to draw eyes by virtue of it being right under the bowl that holds all the candy.
+
 **\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
+
+*Discussed above*
 
 Build a cardbord prototype of your design.
 
 **\*\*\*Document your rough prototype.\*\*\***
 
+![IMG-8829](https://user-images.githubusercontent.com/39087742/195485172-57511142-f92f-4007-9d62-933a3b999e89.jpg)
+
+Creating this prototype made me realize that this design would only work if the display is, higher up, close to the bowl. This is because the bowl would already be within the reach of kids, and with the display placed halfway down that platform, it would be entirely too low to be easily legible. That is, unless it were to be angled up and/or magnified.
 
 LAB PART 2
 

@@ -1,0 +1,1 @@
+pico2wave -w q.wav "How many siblings do you have?" && aplay q.wav && ~/speech2text/vosk_demo_mic.sh
