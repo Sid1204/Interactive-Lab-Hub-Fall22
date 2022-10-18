@@ -56,7 +56,7 @@ disp = st7789.ST7789(
     y_offset=40,
 )
 # pylint: enable=line-too-long
-
+disp.rotation = 270
 # Create blank image for drawing.
 # Make sure to create image with mode 'RGB' for full color.
 if disp.rotation % 180 == 90:
@@ -74,7 +74,7 @@ draw = ImageDraw.Draw(image)
 draw.rectangle((0, 0, width, height), outline=0, fill=(0, 0, 0))
 disp.image(image)
 
-image = Image.open("red.jpg")
+image = Image.open("halloween.png")
 backlight = digitalio.DigitalInOut(board.D22)
 backlight.switch_to_output()
 backlight.value = True
