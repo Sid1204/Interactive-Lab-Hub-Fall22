@@ -307,4 +307,6 @@ The "looks like" drawings are below:
 
 The "works like" and "acts like" simulations are presented in this demo video: https://youtu.be/wYkYpkpzAbw
 
+In the video, the big white box behind the Raspberry Pi is supposed to represent a house, while the faceplate over the Pi is a representative of the candy bowl stand that it's supposed to be fitted into. The distance sensor placed in front of the pumpkin is supposed to be placed inside a real-life jack-o-lantern.
+
 Have a creepy day!
