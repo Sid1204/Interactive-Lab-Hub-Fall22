@@ -298,3 +298,13 @@ Document all the prototypes and iterations you have designed and worked on! Agai
 * "Works like": shows what the device can do
 * "Acts like": shows how a person would interact with the device
 
+My Frightkin (fright+pumpkin) is a device designed to sense the progression of someone walking up the front yard of a house, towards the door. When the person reaches certain distances away from the pumpkin, the speakers fitted within earshot play short audio cues that are designed to intrigue and beckon the person to continue their approach. Finally, as this person gets very close to the door, the system swings the door open for the homeowner to "boo!", while simultaneously lighting up the connected screen with a "Happy Halloween" poster. 
+All in all, the Frightkin is an elegantly creepy solution to delivering precise frights without the need to peek out and see when people are approaching your house. I won't pretend that it's a must, but Halloween's all about experimentation!
+
+The "looks like" drawings are below:
+
+![image_50382849](https://user-images.githubusercontent.com/39087742/196335468-4e711c1d-4ba3-434c-931c-6ed0cdea1e7f.JPG)
+
+The "works like" and "acts like" simulations are presented in this demo video: https://youtu.be/wYkYpkpzAbw
+
+Have a creepy day!
