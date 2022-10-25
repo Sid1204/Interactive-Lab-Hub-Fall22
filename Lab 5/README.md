@@ -102,6 +102,21 @@ pi@ixe00:~/openCV-examples/object-detection $ python detect.py
 
 **\*\*\*Try each of the following four examples in the `openCV-examples`, include screenshots of your use and write about one design for each example that might work based on the individual benefits to each algorithm.\*\*\***
 
+Contour detection might be very well suited to filtering out backgrounds in video feeds. For instance, the backgrounds that we use in Zoom calls cover up everything besides the foreground of the image. 
+This could be used in real life, perhaps on digital billboards that use transparent OLED screens to highlight certain parts of the environment while simulating the rest of it. A potential use for this could be to highlight certain parts of the environment (like buildings, tourist sites, road safety details, etc.
+
+![contours](https://user-images.githubusercontent.com/39087742/197659083-f33acdc2-c6ce-4413-80f3-ed3faf7fc038.jpg)
+
+ID cards are items that are often forgotten. Face detection (with proper safety laws) could be used to identify people walking into an office (or restricted access building) thereby eschewing the need for ID cards. 
+
+![face-detection](https://user-images.githubusercontent.com/39087742/197659092-3ab21d04-c4dd-463f-853a-a952b69c7088.jpg)
+
+Object detection could be used to help people advanced in age find stuff around their houses. One way to do this would be by using a pointer type device that has a small camera in it. An object detection algorithm can then be run on this video feed to identify the object it is being pointed at.
+
+![object-detection](https://user-images.githubusercontent.com/39087742/197659135-62a001a2-e949-45ac-9875-042d72c1fb28.jpg)
+
+The flow detection algorithm hasn't worked for me so far (in touch with the TA to fix it), but I'd imagine it being used in a dynamic intersection where it can be used to dynamically adjust the wait times at stop lights to allow for better flow of traffic.
+
 #### Filtering, FFTs, and Time Series data. 
 Additional filtering and analysis can be done on the sensors that were provided in the kit. For example, running a Fast Fourier Transform over the IMU or Microphone data stream could create a simple activity classifier between walking, running, and standing.
 
