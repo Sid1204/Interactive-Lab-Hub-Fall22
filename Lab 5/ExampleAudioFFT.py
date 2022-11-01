@@ -3,6 +3,7 @@ import numpy as np
 from scipy.fft import rfft, rfftfreq
 from scipy.signal.windows import hann
 from numpy_ringbuffer import RingBuffer
+import os
 
 import queue
 import time
@@ -97,9 +98,12 @@ def main():
 
                 LoudestFrequency = frequencies[amplitudes.argmax()]
                 
-                print("Loudest Frqeuncy:",LoudestFrequency)
-                print("RMS volume:",volumneSlow)
-                print("Volume Change:",volumechange)
+                if LoudestFrequency > 1000:
+                    print("Command received")
+                    os.system("pico2wave -w response.wav \"Calling 9 1 1 now\" && aplay response.wav")
+                #print("Loudest Frqeuncy:",LoudestFrequency)
+                #print("RMS volume:",volumneSlow)
+                #print("Volume Change:",volumechange)
                 
                 nextTimeStamp = UPDATE_INTERVAL+time.time() # See `UPDATE_INTERVAL` above
 
