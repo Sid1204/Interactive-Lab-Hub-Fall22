@@ -297,4 +297,5 @@ Following exploration and reflection from Part 1, finish building your interacti
 
 For this week's lab, I decided to create an intrustion detection system that uses a very high pitched signaling mechanism that is not audible to humans (such as a dog whistle) to signal to the system that something has gone awry and that emergency help is needed. The microphones of the system, upon hearing a very high pitched sound, would call the emergency services to investigate, thus hopefully helping the user of the system.
 Below is a link to a demonstration of the system. The frequency threshold is set to a low number for this demonstration, but would be outside the range of human hearing in the real thing.
+
 https://youtube.com/shorts/h5vX8gjez-4?feature=share
