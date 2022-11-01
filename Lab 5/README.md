@@ -256,9 +256,20 @@ For example:
 
 **\*\*\*Think about someone using the system. Describe how you think this will work.\*\*\***
 1. Are they aware of the uncertainties in the system?
+
+The main uncertainity will be the user's ability to find and use the signaling tool. For instance, if the user stores the whistle in a place that cannot be accessed easily in the case of an emergency, the system would be rendered useless. This is an uncertainity that the user should be explicitly made aware of and advised strongy to overcome.
+
 1. How bad would they be impacted by a miss classification?
+
+Not too badly, save for the inconvenience of having to explain the situation to the responders.
+
 1. How could change your interactive system to address this?
+
+Come up with signaling mechanism that is not susceptible to interpreting random sounds as signals.
+
 1. Are there optimizations you can try to do on your sense-making algorithm.
+
+Use a combination of different attributes of the sound instead of just the pitch to better identify the type and source of the sound.
 
 ### Part D
 ### Characterize your own Observant system
@@ -275,10 +286,15 @@ During the lecture, we mentioned questions to help characterize a material:
 
 **\*\*\*Include a short video demonstrating the answers to these questions.\*\*\***
 
+The system I designed works for emergent situations such as a home invasion. A good environment for it is thus something like a house, or protected property. A bad environment, on the other hand, is something like a neighborhood with lots of dogs, as that could mean the presence of dog whistles that could be mistakenly interpreted as signal by the system. 
+The system could break if it does not pick up the sound, maybe if there is too much background chatter or if the mics are covered or if the source of the sound is obscured.
+
 ### Part 2.
 
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
 
 **\*\*\*Include a short video demonstrating the finished result.\*\*\***
-Here is a demonstration of the intrusion detection system:
+
+For this week's lab, I decided to create an intrustion detection system that uses a very high pitched signaling mechanism that is not audible to humans (such as a dog whistle) to signal to the system that something has gone awry and that emergency help is needed. The microphones of the system, upon hearing a very high pitched sound, would call the emergency services to investigate, thus hopefully helping the user of the system.
+Below is a link to a demonstration of the system. The frequency threshold is set to a low number for this demonstration, but would be outside the range of human hearing in the real thing.
 https://youtube.com/shorts/h5vX8gjez-4?feature=share
