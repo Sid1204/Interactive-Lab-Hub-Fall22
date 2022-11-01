@@ -280,3 +280,5 @@ During the lecture, we mentioned questions to help characterize a material:
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
 
 **\*\*\*Include a short video demonstrating the finished result.\*\*\***
+Here is a demonstration of the intrusion detection system:
+https://youtube.com/shorts/h5vX8gjez-4?feature=share
