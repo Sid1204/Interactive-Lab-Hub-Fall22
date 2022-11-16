@@ -1,0 +1,38 @@
+# Final Project - Urban Gardening System
+
+## Big Idea
+
+An automated garden maintenance system that looks after shared community gardens by:
+- tracking environmental indicators and 
+- providing personalized, remote care for plants
+
+
+Main features: 
+1) Temperature, sunlight, humidity, soil moisture content monitoring 
+2) 2) remote regulation based on monitored indicators (sprinklers, etc.)
+
+
+## Timeline
+
+11/21-22: test all sensors in real environment
+11/29: present prototyped device
+12/6: costumed device + demo presentation
+12/16: final reporting 
+ 
+## Parts Needed
+
+- Soil moisture sensor
+- Temperature sensor
+- Rain sensor, etc.
+
+
+## Risks
+
+- Wifi connections in community gardens
+- Diverse-background of users that are connected to this system
+- Weather conditions → plan to costume!
+- Diverse plant care needs 
+
+## Fallback Plan
+
+Reduce number of sensors and/or scale back scope. We do not anticipate a lot of difficulty integrating most sensors as we've worked with many of them before.
